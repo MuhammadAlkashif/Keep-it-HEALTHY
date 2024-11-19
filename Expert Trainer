@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Alkashif - Doctor and Online Trainer</title>
+    <style>
+        /* General Styles */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #f0f0f0;
+            background-color: #121212;
+        }
+        h1, h2, h3 {
+            color: #00adb5;
+        }
+        a {
+            color: #00adb5;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        /* Header */
+        header {
+            background-color: #222831;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        /* Section Styles */
+        section {
+            padding: 20px;
+        }
+        .about, .services, .contact {
+            margin: 20px auto;
+            max-width: 800px;
+        }
+        /* Contact Form */
+        form {
+            margin-top: 20px;
+        }
+        input, textarea {
+            width: 100%;
+            margin: 10px 0;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #333;
+            color: #f0f0f0;
+        }
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #00adb5;
+            color: #121212;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #007a80;
+        }
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #222831;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Muhammad Alkashif</h1>
+        <p>Doctor and Online Trainer</p>
+    </header>
+
+    <section class="about">
+        <h2>About Me</h2>
+        <p>Hi! I'm Muhammad Alkashif, a doctor and an online trainer dedicated to helping people stay healthy and fit. With my medical knowledge and passion for fitness, I aim to guide individuals towards achieving their health goals.</p>
+    </section>
+
+    <section class="services">
+        <h2>What I Do</h2>
+        <p>I specialize in training people online, creating personalized fitness and health plans tailored to their needs. My goal is to ensure everyone I work with achieves sustainable results and maintains a healthy lifestyle.</p>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <p>If you'd like to work with me or have any questions, feel free to reach out using the form below:</p>
+        <form action="mailto:your-email@example.com" method="POST" enctype="text/plain">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Muhammad Alkashif. All rights reserved.</p>
+    </footer>
+</body>
+</html>
